@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import PText from '../components/PText';
 import Button from '../components/Button';
-import AboutImg from '../assets/images/about-page-img.png';
+import AboutImg from '../assets/images/about-sec-img.jpg';
 import AboutInfoItem from '../components/AboutInfoItem';
 import ContactBanner from '../components/ContactBanner';
 
@@ -81,26 +81,25 @@ export default function About() {
           <div className="top-section">
             <div className="left">
               <p className="about__subheading">
-                Hi, I am <span>Ayan Khan</span>
+                Hi, I am <span>Mike De Keukeleire</span>
               </p>
-              <h2 className="about__heading">A freelance Web developer</h2>
+              <h2 className="about__heading">A Software Developer</h2>
               <div className="about__info">
                 <PText>
-                  I am from chittagong, Bangladesh. A place of beauty and
-                  nature. Since my childhood, i love art and design. I always
-                  try to design stuff with my unique point of view. I also love
-                  to create things that can be usefull to others.
+                  Ik ben een jonge dynamische software developer. Ik werk altijd
+                  met veel enthousiasme en perfectionisme om een project tot een
+                  goed einde te brengen. Management, communicatie, teamwork en
+                  leiderschap zijn enkele van mijn sterke punten.
                   <br /> <br />
-                  I started coding since I was in high school. Coding is also an
-                  art for me. I love it and now I have the opportunity to design
-                  along with the coding. I find it really interesting and I
-                  enjoyed the process a lot.
+                  Ook leid ik mijn eigen webdesign bedrijf{' '}
+                  <a href="https://flaco.media">Flaco Media</a>. Bent u op zoek
+                  naar een moderne, gebruiksvriendelijke website? Neem dan zeker
+                  eens een kijkje!
                   <br />
                   <br />
-                  My vision is to make the world a better place. Now almost
-                  everything is becoming better than ever. It is time for us to
-                  create more good stuff that helps the world to become a better
-                  place.
+                  Naast het ontwikkelen van applicaties en websites ben ik vaak
+                  bezig met sport. Ik beoefen judo en fitness. Daarnaast ben ik
+                  judo coach en geef ik sportkampen in mijn gemeente.
                 </PText>
               </div>
               <Button btnText="Download CV" btnLink="#" />
@@ -111,51 +110,46 @@ export default function About() {
           </div>
           <div className="about__info__items">
             <div className="about__info__item">
-              <h1 className="about__info__heading">Education</h1>
+              <h1 className="about__info__heading">Opleiding</h1>
 
               <AboutInfoItem
-                title="School"
-                items={['Nasirabad Govt. High School, Chattogram']}
+                title="Hogeschool"
+                items={['Toegepaste Informatica. HoGent, Gent']}
               />
               <AboutInfoItem
-                title="Collage"
-                items={['BAF Shaheen College Chattogram']}
+                title="Voetbal"
+                items={['UEFA C. Royal Belgian Football Association, Brussel']}
               />
               <AboutInfoItem
-                title="Varsity"
-                items={['University Of Chitiagong']}
+                title="Middelbaar"
+                items={[
+                  'Informatica Beheer. Handelsinstituut Regina Pacis, Tielt',
+                ]}
+              />
+              <AboutInfoItem
+                title="Middelbaar"
+                items={['Moderne wetenschappen. De Bron, Tielt']}
               />
             </div>
             <div className="about__info__item">
               <h1 className="about__info__heading">My Skills</h1>
 
               <AboutInfoItem
+                title="Applicatie ontwikkeling"
+                items={['Java', 'C#']}
+              />
+              <AboutInfoItem
                 title="FrontEnd"
-                items={['HTML', 'CSS', 'JavaScript', 'REACT']}
+                items={['HTML', 'CSS', 'JavaScript', 'React']}
               />
-              <AboutInfoItem
-                title="BackEnd"
-                items={['Node', 'Express', 'PHP']}
-              />
-              <AboutInfoItem
-                title="Design"
-                items={['Photoshop', 'After Effects', 'Figma']}
-              />
+              <AboutInfoItem title="BackEnd" items={['NodeJS']} />
             </div>
             <div className="about__info__item">
               <h1 className="about__info__heading">Experiences</h1>
 
               <AboutInfoItem
-                title="2010-2012"
-                items={['junior developer at web Cifar']}
-              />
-              <AboutInfoItem
-                title="2012-2016"
-                items={['Front end developer at web Cifar ']}
-              />
-              <AboutInfoItem
-                title="2016-"
-                items={['Freelance web Developer']}
+                title="2022-"
+                items={['Zelfstandig web developer']}
               />
             </div>
           </div>
