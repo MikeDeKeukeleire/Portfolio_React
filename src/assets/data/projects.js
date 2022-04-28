@@ -6,7 +6,7 @@ import CoinTrackerImg from '../images/cointracker.jpg';
 const projects = [
   {
     id: uuidv4(),
-    name: 'Website Flaco',
+    name: 'Website Flaco Media',
     desc: 'Website voor mijn zelfstandig webdesign bedrijf.',
     img: UTrackerImg,
   },
