@@ -28,12 +28,18 @@ const ItemStyles = styled.div`
 export default function ContactInfoItem({
   icon = <MdPlace />,
   text = 'I need text ',
+  href = '',
+  target = '',
 }) {
   return (
     <ItemStyles>
       <div className="icon">{icon}</div>
       <div className="info">
-        <PText>{text}</PText>
+        <PText>
+          <a href={href} target={target}>
+            {text}
+          </a>
+        </PText>
       </div>
     </ItemStyles>
   );

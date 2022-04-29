@@ -45,7 +45,7 @@ export default function ContactForm() {
   const [message, setMessage] = useState('');
   return (
     <>
-      <FormStyle>
+      <FormStyle action="mailto:hello@mikedk.be">
         <div className="form-group">
           <label htmlFor="name">
             Your Name

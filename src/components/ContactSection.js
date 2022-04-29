@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { MdEmail, MdLocalPhone } from 'react-icons/md';
-import ContactForm from './ContactForm';
+import { MdEmail, MdLocalPhone, MdWeb } from 'react-icons/md';
 import ContactInfoItem from './ContactInfoItem';
 import SectionTitle from './SectionTitle';
 
@@ -58,12 +57,25 @@ export default function ContactSection() {
         <SectionTitle heading="contact" subheading="get in touch" />
         <div className="contactSection__wrapper">
           <div className="left">
-            <ContactInfoItem icon={<MdLocalPhone />} text="+8801231" />
-            <ContactInfoItem icon={<MdEmail />} text="webcifar@gmail.com" />
-            <ContactInfoItem text="Chittagong, Bangladesh" />
+            <ContactInfoItem
+              icon={<MdLocalPhone />}
+              text="+32487150420"
+              href="tel:+32487150420"
+            />
+            <ContactInfoItem
+              icon={<MdEmail />}
+              text="hello@mikedk.be"
+              href="mailto:hello@mikedk.be"
+            />
           </div>
           <div className="right">
-            <ContactForm />
+            <ContactInfoItem
+              icon={<MdWeb />}
+              text="www.flaco.media"
+              href="https://flaco.media"
+              target="blank"
+            />
+            <ContactInfoItem text="Dentergem, België" />
           </div>
         </div>
       </div>

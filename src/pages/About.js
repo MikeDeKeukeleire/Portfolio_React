@@ -134,15 +134,13 @@ export default function About() {
             <div className="about__info__item">
               <h1 className="about__info__heading">My Skills</h1>
 
-              <AboutInfoItem
-                title="Applicatie ontwikkeling"
-                items={['Java', 'C#']}
-              />
+              <AboutInfoItem title="AppDev" items={['Java', 'C#']} />
               <AboutInfoItem
                 title="FrontEnd"
                 items={['HTML', 'CSS', 'JavaScript', 'React']}
               />
               <AboutInfoItem title="BackEnd" items={['NodeJS']} />
+              <AboutInfoItem title="Others" items={['SQL', 'Python']} />
             </div>
             <div className="about__info__item">
               <h1 className="about__info__heading">Experiences</h1>
