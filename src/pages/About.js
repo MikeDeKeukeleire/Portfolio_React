@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import PText from '../components/PText';
-import Button from '../components/Button';
 import AboutImg from '../assets/images/about-sec-img.jpg';
 import AboutInfoItem from '../components/AboutInfoItem';
 import ContactBanner from '../components/ContactBanner';
@@ -102,7 +101,6 @@ export default function About() {
                   judo coach en geef ik sportkampen in mijn gemeente.
                 </PText>
               </div>
-              <Button btnText="Download CV" btnLink="#" />
             </div>
             <div className="right">
               <img src={AboutImg} alt="me" />
