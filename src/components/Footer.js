@@ -122,7 +122,10 @@ export default function Footer() {
       <div className="copyright">
         <div className="container">
           <PText>
-            © 2022 - Mike De Keukeleire
+            © 2022 -{' '}
+            <a href="https://flaco.media" target="blank">
+              Flaco Media
+            </a>
             {/* <a target="_blank" rel="noreferrer" href="http://webcifar.com">
               web cifar
             </a>{' '} */}
