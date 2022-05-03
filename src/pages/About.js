@@ -149,7 +149,7 @@ export default function About() {
               />
               <AboutInfoItem
                 title="08/2019 - 05/2021"
-                items={['Voetbaltrainer (jeugd), VV Tielt']}
+                items={['Voetbaltrainer (jeugd), KZ Dentergem']}
               />
               <AboutInfoItem
                 title="08/2021 - 02/2022"
