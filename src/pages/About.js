@@ -115,9 +115,7 @@ export default function About() {
               />
               <AboutInfoItem
                 title="Middelbaar"
-                items={[
-                  'Informatica Beheer. Handelsinstituut Regina Pacis, Tielt',
-                ]}
+                items={['Informatica Beheer. Regina Pacis, Tielt']}
               />
               <AboutInfoItem
                 title="Voetbaltrainer"
@@ -146,27 +144,27 @@ export default function About() {
               <h1 className="about__info__heading">Experiences</h1>
 
               <AboutInfoItem
-                title="januari 2020"
+                title="01/2020"
                 items={['Stagiair Internal IT, Pareteum']}
               />
               <AboutInfoItem
-                title="augustus 2019 - mei 2021"
+                title="08/2019 - 05/2021"
                 items={['Voetbaltrainer (jeugd), VV Tielt']}
               />
               <AboutInfoItem
-                title="augustus 2021 - februari 2022"
+                title="08/2021 - 02/2022"
                 items={['Voetbaltrainer (jeugd), VV Tielt']}
               />
               <AboutInfoItem
-                title="april 2021-"
+                title="04/2021-"
                 items={['Sportkamp monitor, Gemeente Dentergem']}
               />
               <AboutInfoItem
-                title="oktober 2021-"
+                title="01/2021-"
                 items={['Event staff, MaisonRouge']}
               />
               <AboutInfoItem
-                title="2022-"
+                title="02/2022-"
                 items={['Zelfstandig web developer, Flaco Media']}
               />
             </div>
