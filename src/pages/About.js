@@ -109,14 +109,9 @@ export default function About() {
           <div className="about__info__items">
             <div className="about__info__item">
               <h1 className="about__info__heading">Opleiding</h1>
-
               <AboutInfoItem
-                title="Hogeschool"
-                items={['Toegepaste Informatica. HoGent, Gent']}
-              />
-              <AboutInfoItem
-                title="Voetbal"
-                items={['UEFA C. Royal Belgian Football Association, Brussel']}
+                title="Middelbaar"
+                items={['Moderne wetenschappen. De Bron, Tielt']}
               />
               <AboutInfoItem
                 title="Middelbaar"
@@ -125,8 +120,12 @@ export default function About() {
                 ]}
               />
               <AboutInfoItem
-                title="Middelbaar"
-                items={['Moderne wetenschappen. De Bron, Tielt']}
+                title="Voetbaltrainer"
+                items={['UEFA C. Royal Belgian Football Association, Brussel']}
+              />
+              <AboutInfoItem
+                title="Hogeschool"
+                items={['Toegepaste Informatica. HoGent, Gent']}
               />
             </div>
             <div className="about__info__item">
@@ -137,15 +136,38 @@ export default function About() {
                 title="FrontEnd"
                 items={['HTML', 'CSS', 'JavaScript', 'React']}
               />
-              <AboutInfoItem title="BackEnd" items={['NodeJS']} />
+              <AboutInfoItem
+                title="BackEnd"
+                items={['NodeJS', 'Spring Boot']}
+              />
               <AboutInfoItem title="Others" items={['SQL', 'Python']} />
             </div>
             <div className="about__info__item">
               <h1 className="about__info__heading">Experiences</h1>
 
               <AboutInfoItem
+                title="januari 2020"
+                items={['Stagiair Internal IT, Pareteum']}
+              />
+              <AboutInfoItem
+                title="augustus 2019 - mei 2021"
+                items={['Voetbaltrainer (jeugd), VV Tielt']}
+              />
+              <AboutInfoItem
+                title="augustus 2021 - februari 2022"
+                items={['Voetbaltrainer (jeugd), VV Tielt']}
+              />
+              <AboutInfoItem
+                title="april 2021-"
+                items={['Sportkamp monitor, Gemeente Dentergem']}
+              />
+              <AboutInfoItem
+                title="oktober 2021-"
+                items={['Event staff, MaisonRouge']}
+              />
+              <AboutInfoItem
                 title="2022-"
-                items={['Zelfstandig web developer']}
+                items={['Zelfstandig web developer, Flaco Media']}
               />
             </div>
           </div>
