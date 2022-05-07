@@ -144,28 +144,29 @@ export default function About() {
               <h1 className="about__info__heading">Experiences</h1>
 
               <AboutInfoItem
-                title="01/2020"
+                title="01/'20"
                 items={['Stagiair Internal IT, Pareteum']}
               />
               <AboutInfoItem
-                title="08/2019 - 05/2021"
+                title="08/'19 - 05/'21"
                 items={['Voetbaltrainer (jeugd), KZ Dentergem']}
               />
               <AboutInfoItem
-                title="08/2021 - 02/2022"
+                title="08/'21 - 02/'22"
                 items={['Voetbaltrainer (jeugd), VV Tielt']}
               />
               <AboutInfoItem
-                title="04/2021-"
+                title="04/'21-"
                 items={['Sportkamp monitor, Gemeente Dentergem']}
               />
               <AboutInfoItem
-                title="01/2021-"
+                title="10/'21-"
                 items={['Event staff, MaisonRouge']}
               />
+              <AboutInfoItem title="02/'22-" items={['Judo coach, JC Tielt']} />
               <AboutInfoItem
-                title="02/2022-"
-                items={['Zelfstandig web developer, Flaco Media']}
+                title="02/'22-"
+                items={['Zelfstandig webdesigner, Flaco Media']}
               />
             </div>
           </div>
