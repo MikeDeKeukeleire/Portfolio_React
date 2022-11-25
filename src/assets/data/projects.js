@@ -10,27 +10,6 @@ const projects = [
     desc: 'Website voor mijn zelfstandig webdesign bedrijf.',
     img: UTrackerImg,
   },
-  {
-    id: uuidv4(),
-    name: 'Business application',
-    desc:
-      'School opdracht 2e jaar Toegepaste Informatica: bedrijfs applicatie geprogrammeerd in java.',
-    img: ProjectImg,
-  },
-  {
-    id: uuidv4(),
-    name: 'Restaurant webapp',
-    desc:
-      'School opdracht 2e jaar Toegepaste Informatica: front-end voor een lokaal restaurant.',
-    img: CoinTrackerImg,
-  },
-  {
-    id: uuidv4(),
-    name: 'Restaurant API',
-    desc:
-      'School opdracht 2e jaar Toegepaste Informatica: back-end voor een lokaal restaurant.',
-    img: CoinTrackerImg,
-  },
 ];
 
 export default projects;

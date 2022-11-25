@@ -66,7 +66,7 @@ export default function Footer() {
         </div>
         <div className="footer__col2">
           <FooterCol
-            heading="Important Links"
+            heading="Site Content"
             links={[
               {
                 title: 'Home',
@@ -108,7 +108,7 @@ export default function Footer() {
         </div>
         <div className="footer__col4">
           <FooterCol
-            heading="social Links"
+            heading="Social Links"
             links={[
               {
                 title: 'LinkedIn',
@@ -123,7 +123,7 @@ export default function Footer() {
         <div className="container">
           <PText>
             © 2022 -{' '}
-            <a href="https://flaco.media" target="blank">
+            <a href="https://flacomedia.be" target="blank">
               Flaco Media
             </a>
             {/* <a target="_blank" rel="noreferrer" href="http://webcifar.com">

@@ -110,63 +110,66 @@ export default function About() {
             <div className="about__info__item">
               <h1 className="about__info__heading">Opleiding</h1>
               <AboutInfoItem
-                title="Middelbaar"
-                items={['Moderne wetenschappen. De Bron, Tielt']}
-              />
-              <AboutInfoItem
-                title="Middelbaar"
-                items={['Informatica Beheer. Regina Pacis, Tielt']}
+                title="Hogeschool"
+                items={['Toegepaste Informatica. HoGent, Gent']}
               />
               <AboutInfoItem
                 title="Voetbaltrainer"
                 items={['UEFA C. Royal Belgian Football Association, Brussel']}
               />
               <AboutInfoItem
-                title="Hogeschool"
-                items={['Toegepaste Informatica. HoGent, Gent']}
+                title="Middelbaar"
+                items={['Informatica Beheer. Regina Pacis, Tielt']}
+              />
+              <AboutInfoItem
+                title="Middelbaar"
+                items={['Moderne wetenschappen. De Bron, Tielt']}
               />
             </div>
             <div className="about__info__item">
               <h1 className="about__info__heading">My Skills</h1>
 
-              <AboutInfoItem title="AppDev" items={['Java', 'C#']} />
+              <AboutInfoItem title="AppDev" items={['Java', 'C#', 'Kotlin']} />
               <AboutInfoItem
                 title="FrontEnd"
-                items={['HTML', 'CSS', 'JavaScript', 'React']}
+                items={[
+                  'Blazor',
+                  'React',
+                  'Spring Boot',
+                  'JavaScript',
+                  'HTML',
+                  'CSS',
+                ]}
               />
-              <AboutInfoItem
-                title="BackEnd"
-                items={['NodeJS', 'Spring Boot']}
-              />
+              <AboutInfoItem title="BackEnd" items={['NodeJS']} />
               <AboutInfoItem title="Others" items={['SQL', 'Python']} />
             </div>
             <div className="about__info__item">
               <h1 className="about__info__heading">Experiences</h1>
-
               <AboutInfoItem
-                title="01/'20"
-                items={['Stagiair Internal IT, Pareteum']}
+                title="02/'22-"
+                items={['Zelfstandig webdesigner, Flaco Media']}
               />
+              <AboutInfoItem title="02/'22-" items={['Judo coach, JC Tielt']} />
               <AboutInfoItem
-                title="08/'19 - 05/'21"
-                items={['Voetbaltrainer (jeugd), KZ Dentergem']}
-              />
-              <AboutInfoItem
-                title="08/'21 - 02/'22"
-                items={['Voetbaltrainer (jeugd), VV Tielt']}
+                title="10/'21-"
+                items={['Event staff, MaisonRouge']}
               />
               <AboutInfoItem
                 title="04/'21-"
                 items={['Sportkamp monitor, Gemeente Dentergem']}
               />
               <AboutInfoItem
-                title="10/'21-"
-                items={['Event staff, MaisonRouge']}
+                title="08/'21 - 02/'22"
+                items={['Voetbaltrainer (jeugd), VV Tielt']}
               />
-              <AboutInfoItem title="02/'22-" items={['Judo coach, JC Tielt']} />
               <AboutInfoItem
-                title="02/'22-"
-                items={['Zelfstandig webdesigner, Flaco Media']}
+                title="08/'19 - 05/'21"
+                items={['Voetbaltrainer (jeugd), KZ Dentergem']}
+              />
+              <AboutInfoItem
+                title="01/'20"
+                items={['Stagiair Internal IT, Pareteum']}
               />
             </div>
           </div>

@@ -71,8 +71,8 @@ export default function ContactSection() {
           <div className="right">
             <ContactInfoItem
               icon={<MdWeb />}
-              text="www.flaco.media"
-              href="https://flaco.media"
+              text="www.flacomedia.be"
+              href="https://flacomedia.be"
               target="blank"
             />
             <ContactInfoItem text="Dentergem, België" />

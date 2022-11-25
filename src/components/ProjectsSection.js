@@ -59,7 +59,7 @@ const ProjectSectionStyle = styled.div`
 export default function ProjectsSection() {
   // console.log(projects);
   return (
-    <ProjectSectionStyle>
+    <ProjectSectionStyle style={{ display: 'none' }}>
       <div className="container">
         <SectionTitle
           subheading="enkele van mijn recente werken"
