@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.js": "/MikeDeKeukeleire/portfolio_React.git/static/js/main.11acde1c.chunk.js",
+    "main.js.map": "/MikeDeKeukeleire/portfolio_React.git/static/js/main.11acde1c.chunk.js.map",
+    "runtime-main.js": "/MikeDeKeukeleire/portfolio_React.git/static/js/runtime-main.dac70050.js",
+    "runtime-main.js.map": "/MikeDeKeukeleire/portfolio_React.git/static/js/runtime-main.dac70050.js.map",
+    "static/css/2.fe8d9bf6.chunk.css": "/MikeDeKeukeleire/portfolio_React.git/static/css/2.fe8d9bf6.chunk.css",
+    "static/js/2.eb6d5bbb.chunk.js": "/MikeDeKeukeleire/portfolio_React.git/static/js/2.eb6d5bbb.chunk.js",
+    "static/js/2.eb6d5bbb.chunk.js.map": "/MikeDeKeukeleire/portfolio_React.git/static/js/2.eb6d5bbb.chunk.js.map",
+    "index.html": "/MikeDeKeukeleire/portfolio_React.git/index.html",
+    "static/css/2.fe8d9bf6.chunk.css.map": "/MikeDeKeukeleire/portfolio_React.git/static/css/2.fe8d9bf6.chunk.css.map",
+    "static/js/2.eb6d5bbb.chunk.js.LICENSE.txt": "/MikeDeKeukeleire/portfolio_React.git/static/js/2.eb6d5bbb.chunk.js.LICENSE.txt",
+    "static/media/Montserrat-Bold.079ca05d.ttf": "/MikeDeKeukeleire/portfolio_React.git/static/media/Montserrat-Bold.079ca05d.ttf",
+    "static/media/Montserrat-SemiBold.fa8441f3.ttf": "/MikeDeKeukeleire/portfolio_React.git/static/media/Montserrat-SemiBold.fa8441f3.ttf",
+    "static/media/RobotoMono-Regular.418a8f9f.ttf": "/MikeDeKeukeleire/portfolio_React.git/static/media/RobotoMono-Regular.418a8f9f.ttf",
+    "static/media/about-sec-img.7bfe78d6.jpg": "/MikeDeKeukeleire/portfolio_React.git/static/media/about-sec-img.7bfe78d6.jpg",
+    "static/media/cointracker.54149a83.jpg": "/MikeDeKeukeleire/portfolio_React.git/static/media/cointracker.54149a83.jpg",
+    "static/media/hero.8bd15cdb.png": "/MikeDeKeukeleire/portfolio_React.git/static/media/hero.8bd15cdb.png",
+    "static/media/projectImg.d3f1ae05.png": "/MikeDeKeukeleire/portfolio_React.git/static/media/projectImg.d3f1ae05.png",
+    "static/media/scroll-down-arrow.8ad25c53.svg": "/MikeDeKeukeleire/portfolio_React.git/static/media/scroll-down-arrow.8ad25c53.svg",
+    "static/media/social-media-arrow.ecc0133c.svg": "/MikeDeKeukeleire/portfolio_React.git/static/media/social-media-arrow.ecc0133c.svg",
+    "static/media/utracker.f6ed02c0.jpg": "/MikeDeKeukeleire/portfolio_React.git/static/media/utracker.f6ed02c0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dac70050.js",
+    "static/css/2.fe8d9bf6.chunk.css",
+    "static/js/2.eb6d5bbb.chunk.js",
+    "static/js/main.11acde1c.chunk.js"
+  ]
+}
